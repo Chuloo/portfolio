@@ -40,5 +40,5 @@ app.use(express.static(__dirname + '/public'))
 
 //serve our app
 app.listen(port, function(){
-    console.log('App has started')
+    console.log('App has started and is listening on port ' + port)
 });
