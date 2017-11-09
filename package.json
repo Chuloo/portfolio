@@ -1,0 +1,21 @@
+{
+  "name": "scotchnode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve":"nodemon server.js"
+  },
+  "author": "william",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "ejs": "^2.5.7",
+    "express": "^4.16.2",
+    "express-ejs-layouts": "^2.3.1",
+    "mongodb": "^2.2.33",
+    "mongoose": "^4.13.0",
+    "nodemon": "^1.12.1"
+  }
+}

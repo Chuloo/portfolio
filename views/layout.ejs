@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Node Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.6.1/css/bulma.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <!-- <link rel="stylesheet" href="https://meyerweb.com/eric/tools/css/reset/reset.css"> -->
+</head>
+<body>
+    <header>
+        <nav class='navbar'>
+            <div class="navbar-brand">
+                <a href="/" class="navbar-item">Chuloo</a>
+                <button class="button navbar-burger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+            <div class="navbar-menu">
+                <ul class=" navbar-end">
+                    <li class="navbar-item"><a href="/">Home</a></li>
+                    <li class="navbar-item"><a href="/about">About</a></li>
+                    <li class="navbar-item"><a href="/contact">Contact</a></li>
+                    <li class="navbar-item"><a href="/projects">Projects</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <%- defineContent('banner') %>
+
+<!-- Content here -->
+    <%- defineContent('container') %>
+    <footer></footer>
+</body>
+</html>
